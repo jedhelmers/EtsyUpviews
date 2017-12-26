@@ -1,6 +1,6 @@
 # WELCOME TO MY ETSY-O-NATOR
 
-### This project allows a user to 'up' their etsy item views.
+## This project allows a user to 'up' their etsy item views.
 I know what you're thinking, "... why would someone want to up their etsy item views?"
 Great question. From observation, I get the strangest feeling that etsy's search algorithm determines search relevancy by the number of times an item has been viewed.
 From there it probably goes on to add weight to certain tags on certain items all in an attempt to optimize user satisfaction. However...
