@@ -13,4 +13,12 @@ This project games an already flawed model. It doesn't make sales: it simply bri
 This project uses python and some anonymity functions written by much smart people than myself. I'll get into that later.
 
 ### JAVASCRIPT TO KNOW
-In order to load a searchable library of items, I've been manually scrapping item links directly from an Etsy shop's page. Javascript is great for this. I'll get into that later.
+In order to load a searchable library of items, I've been manually scrapping item links directly from an Etsy shop's page. Javascript is great for this.
+```var x = document.getElementsByClassName('listing-link');
+var y = [];
+for (i=0;i<x.length; ++i){
+	var temp = x[i];
+	y.push('"' + temp.href + '" ');
+
+}
+alert(y);```
